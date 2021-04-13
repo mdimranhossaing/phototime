@@ -1,0 +1,602 @@
+/* ===================================
+    About
+====================================== */
+
+/*
+    Theme Name: Phototime
+    Theme URI: http://www.webdeal.zyz
+    Author: Md Imran Hossain
+    Author URI: http://www.webdeal.zyz/imran
+    Description: This is a photography website
+    Tags: one page, multipurpose, parallax, creative, html5
+
+ */
+
+/* ===================================
+    Table of Content
+====================================== */
+
+
+/*  - Fonts   */
+/*  - General   */
+/*  - Header   */
+/*  - Get Started   */
+/*  - Design   */
+/*  - Our Community   */
+/*  - Subscribe   */
+/*  - Download   */
+/*  - Footer   */
+
+
+/* ===================================
+    Gotham Rounded font
+====================================== */
+$text-color: #fff;
+$text-dark: #373737;
+$button-color: #1abc9c;
+$hover-color: #159f85;
+$bg-color: #f5f6f7;
+
+/* ===================================
+    Gotham Rounded font
+====================================== */
+ @font-face {
+ 	font-family: "Gotham Rounded Book";
+ 	src: url("../font/gotham_rounded/gotham_rounded_book.woff") format("woff");
+ }
+ @font-face {
+ 	font-family: "Gotham Rounded Bold";
+ 	src: url("../font/gotham_rounded/gotham_rounded_bold.woff") format("woff");
+ }
+
+/* ===================================
+    General
+====================================== */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Gotham Rounded Book";
+}
+
+/* ===================================
+    Header Section Start
+====================================== */
+.header-section {
+	background: url(../img/header_bg.png) no-repeat 100% 100% / cover;
+	text-align: center;
+	overflow: hidden;
+
+	.navigation-menu {
+		margin: 25px 0 180px;
+
+		ul {
+			li {
+				display: inline;
+				margin: 0 25px;
+
+				a {
+					color: #fff;
+					text-transform: uppercase;
+					font-size: 12px;
+					font-family: "Gotham Rounded Bold";
+					text-decoration: none;
+					letter-spacing: 2px;
+
+					img {
+						max-width: 40px;
+						height: auto;
+						margin: 0 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.header-content {
+		.main-title {
+			margin-bottom: 10px;
+			h1 {
+				color: #fff;
+				text-transform: uppercase;
+				font-size: 25px;
+				font-family: "Gotham Rounded Bold";
+				letter-spacing: 5px;
+				line-height: 1.5em;
+			}
+		}
+		.main-desc {
+			margin-bottom: 20px;
+
+			p {
+				color: #fff;
+				font-size: 12px;
+			}
+		}
+		.button {
+			margin-bottom: 160px;
+			a {
+				display: inline-block;
+				color: #fff;
+				font-size: 10px;
+				padding: 10px 20px;
+				border-radius: 4px;
+				text-decoration: none;
+				text-transform: uppercase;
+				background: $button-color;
+				border: 1px solid transparent;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				-ms-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+
+				&:hover {
+					background: transparent;
+					border: 1px solid $text-color;
+				}
+			}
+		}
+	}
+
+	.social-media {
+		margin-bottom: 20px;
+		nav {
+			ul {
+				li {
+					display: inline;
+					margin: 0 5px;
+
+					a {
+						color: $text-color;
+
+						svg {
+							font-size: 18px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* ===================================
+    Header Section End
+====================================== */
+
+/* ===================================
+    Get Started Section Start
+====================================== */
+.get-started {
+	overflow: hidden;
+	background-color: $bg-color;
+	z-index: 2;
+	position: relative;
+
+	.title {
+		margin: 110px 0 35px;
+		h2 {
+			font-size: 16px;
+			font-family: "Gotham Rounded Bold";
+			text-transform: uppercase;
+			color: $button-color;
+			line-height: 1.5em;
+		}
+	}
+	.desc {
+		width: 50%;
+		margin-bottom: 35px;
+		p {
+			font-size: 12px;
+			line-height: 1.5em;
+			color: $text-dark;
+
+			b {
+				font-family: "Gotham Rounded Bold";
+			}
+		}
+	}
+
+	.button {
+		margin-bottom: 90px;
+		a {
+			display: inline-block;
+			color: #fff;
+			font-size: 10px;
+			padding: 10px 25px;
+			border-radius: 4px;
+			text-decoration: none;
+			text-transform: uppercase;
+			background: $button-color;
+			border: 1px solid transparent;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+
+			&:hover {
+				background: transparent;
+				color: #333;
+				border: 1px solid #333;
+			}
+		}
+	}
+
+	.container {
+		position: relative;
+	}
+
+	.hand-phone {
+		position: absolute;
+		top: 91%;
+		right: -180px;
+		transform: translateY(-50%);
+		z-index: -1;
+
+		img {
+			max-width: 70%;
+			height: auto;
+		}
+	}
+}
+/* ===================================
+    Get Started Section End
+====================================== */
+
+/* ===================================
+    Design Section Start
+====================================== */
+.design-section {
+	overflow: hidden;
+	z-index: 2;
+	position: relative;
+
+	.title {
+		margin: 110px 0 35px;
+		/*width: 50%;*/
+		h2 {
+			font-size: 16px;
+			font-family: "Gotham Rounded Bold";
+			text-transform: uppercase;
+			color: $button-color;
+			line-height: 1.5em;
+		}
+	}
+	.desc {
+		/*width: 50%;*/
+		margin-bottom: 35px;
+		p {
+			font-size: 12px;
+			line-height: 1.5em;
+			color: $text-dark;
+
+			b {
+				font-family: "Gotham Rounded Bold";
+			}
+		}
+	}
+	.button {
+		margin-bottom: 30px;
+		a {
+			display: inline-block;
+			color: #fff;
+			font-size: 10px;
+			padding: 10px 25px;
+			text-decoration: none;
+			text-transform: uppercase;
+			background: $button-color;
+			border: 1px solid transparent;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+
+			&:hover {
+				background: transparent;
+				color: #333;
+				border: 1px solid #333;
+			}
+		}
+	}
+	.container {
+		position: relative;
+	}
+	.hand-phone {
+		position: absolute;
+		top: 75%;
+		left: 0;
+		transform: translateY(-50%);
+		z-index: -1;
+
+		img {
+			max-width: 70%;
+			height: auto;
+		}
+	}
+	.date {
+		span {
+			font-size: 10px;
+			font-family: "Gotham Rounded Bold";
+		}
+	}
+	.handle {
+		margin-bottom: 50px;
+
+		svg {
+			font-size: 20px;
+			color: $text-dark;
+			&:nth-child(1) {
+				margin-right: 6px;
+			}
+		}
+	}
+}
+/* ===================================
+    Design Section End
+====================================== */
+
+/* ===================================
+    Our Community Section Start
+====================================== */
+.our-community {
+	overflow: hidden;
+	background-color: $bg-color;
+	padding: 60px 0 60px;
+
+	.handle {
+		text-align: right;
+		margin-bottom: 5px;
+
+		svg {
+			font-size: 20px;
+			color: $text-dark;
+		}
+	}
+	.logo-area {
+		text-align: center;
+		margin: 20px auto;
+
+		.logo {
+			margin-bottom: 18px;
+
+			img {
+				max-width: 40px;
+				height: auto;
+			}
+		}
+		.title {
+			margin-bottom: 18px;
+
+			h2 {
+				font-size: 15px;
+				font-family: "Gotham Rounded Bold";
+				text-transform: uppercase;
+				color: $text-dark;
+				line-height: 1.5em;
+			}
+		}
+		.desc {
+			width: 65%;
+			margin: auto;
+			text-align: center;
+
+			p {
+				font-size: 12px;
+				color: $text-dark;
+				line-height: 1.3em;
+			}
+		}
+	}
+	.image {
+		text-align: center;
+		margin: 20px auto;
+	}
+}
+/* ===================================
+    Our Community Section End
+====================================== */
+
+/* ===================================
+    Subscribe Section Start
+====================================== */
+.subscribe-section {
+	background: url(../img/subscribe_bg.png) no-repeat 100% 100% / cover;
+	text-align: center;
+	overflow: hidden;
+	padding: 230px 0 215px;
+
+
+	.title {
+		margin-bottom: 20px;
+
+		h2 {
+			font-size: 15px;
+			font-family: "Gotham Rounded Bold";
+			text-transform: uppercase;
+			color: $text-color;
+			line-height: 1.5em;
+			letter-spacing: 4px;
+		}
+	}
+	.subscribe-form {
+		font-size: 14px;
+
+		form {
+			input {
+				padding: 12px;
+				margin-right: -2.5px;
+				border: none;
+				border-radius: 4px 0 0 4px;
+				text-transform: uppercase;
+				color: $text-dark;
+				font-family: "Gotham Rounded Book";
+
+				&:focus {
+					outline: none;
+				}
+			}
+			button {
+				padding: 12px;
+				color: $text-color;
+				background-color: $button-color;
+				margin-left: -2.5px;
+				border: none;
+				border-radius: 0 4px 4px 0;
+				cursor: pointer;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				-ms-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+
+				&:hover {
+					background-color: $hover-color;
+				}
+
+				&:focus {
+					outline: none;
+				}
+			}
+		}
+	}
+}
+/* ===================================
+    Subscribe Section End
+====================================== */
+
+/* ===================================
+    Download Section Start
+====================================== */
+.download-section {
+	text-align: center;
+	overflow: hidden;
+	padding: 60px 0;
+	background-color: $bg-color;
+
+
+	.title {
+		margin-bottom: 20px;
+
+		h2 {
+			font-size: 15px;
+			font-family: "Gotham Rounded Bold";
+			text-transform: uppercase;
+			color: $text-dark;
+			line-height: 1.5em;
+			letter-spacing: 3px;
+		}
+	}
+	.desc {
+		margin: auto;
+		margin-bottom: 30px; 
+		width: 80%;
+
+		p {
+			font-size: 12px;
+			line-height: 1.5em;
+		}
+	}
+	.appstore {
+		.btn-1 {
+			display: inline-block;
+			margin: 5px;
+			margin-bottom: 20px;
+		}
+		.btn-2 {
+			display: inline-block;
+			margin-bottom: 20px;
+			margin: 5px;
+		}
+		button {
+			width: 140px;
+			border: none;
+			background-color: $button-color;
+			padding: 12px 18px;
+			padding-left: 0;
+			color: $text-color;
+			text-transform: uppercase;
+			font-size: 12px;
+			border-radius: 4px 0 0 4px;
+			margin-right: -5px;
+		}
+		span {
+			display: inline-block;
+			width: 40px;
+			color: $text-color;
+			background-color: $hover-color;
+			padding: 8px;
+			font-size: 12px;
+			border-radius: 0 4px 4px 0;
+			line-height: 1.8em;
+			cursor: pointer;
+
+			a {
+				color: $text-color;
+
+				svg {
+					font-size: 17px;
+				}
+			}
+		}
+	}
+}
+/* ===================================
+    Download Section End
+====================================== */
+
+/* ===================================
+    Footer Section Start
+====================================== */
+.footer-section {
+	position: relative;
+	overflow: hidden;
+	padding: 30px 0 20px;
+
+	.link {
+		margin-bottom: 12px;
+		nav {
+
+			ul {
+				li {
+					display: inline;
+
+					a {
+						color: $text-dark;
+						font-size: 12px;
+						line-height: 1.3em;
+						text-transform: uppercase;
+						font-family: "Gotham Rounded Bold";
+						text-decoration: none;
+						letter-spacing: 1px;
+
+						span {
+							color: $button-color;
+						}
+					}
+				}
+			}
+		}
+	}
+	.copyright {
+		p {
+			font-size: 12px;
+			line-height: 1.3em;
+			font-family: "Gotham Rounded Bold";
+		}
+	}
+
+	.footer-logo {
+		position: absolute;
+		right: 15px;
+		bottom: 0;
+
+
+		img {
+			width: 35px;
+		}
+	}
+}
+/* ===================================
+    Footer Section End
+====================================== */

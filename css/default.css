@@ -1,0 +1,525 @@
+/* ===================================
+    About
+====================================== */
+/*
+    Theme Name: Phototime
+    Theme URI: http://www.webdeal.zyz
+    Author: Md Imran Hossain
+    Author URI: http://www.webdeal.zyz/imran
+    Description: This is a photography website
+    Tags: one page, multipurpose, parallax, creative, html5
+
+ */
+/* ===================================
+    Table of Content
+====================================== */
+/*  - Fonts   */
+/*  - General   */
+/*  - Header   */
+/*  - Get Started   */
+/*  - Design   */
+/*  - Our Community   */
+/*  - Subscribe   */
+/*  - Download   */
+/*  - Footer   */
+/* ===================================
+    Gotham Rounded font
+====================================== */
+/* ===================================
+    Gotham Rounded font
+====================================== */
+@font-face {
+  font-family: "Gotham Rounded Book";
+  src: url("../font/gotham_rounded/gotham_rounded_book.woff") format("woff");
+}
+@font-face {
+  font-family: "Gotham Rounded Bold";
+  src: url("../font/gotham_rounded/gotham_rounded_bold.woff") format("woff");
+}
+/* ===================================
+    General
+====================================== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gotham Rounded Book";
+}
+
+/* ===================================
+    Header Section Start
+====================================== */
+.header-section {
+  background: url(../img/header_bg.png) no-repeat 100% 100%/cover;
+  text-align: center;
+  overflow: hidden;
+}
+.header-section .navigation-menu {
+  margin: 25px 0 180px;
+}
+.header-section .navigation-menu ul li {
+  display: inline;
+  margin: 0 25px;
+}
+.header-section .navigation-menu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Gotham Rounded Bold";
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.header-section .navigation-menu ul li a img {
+  max-width: 40px;
+  height: auto;
+  margin: 0 20px;
+}
+.header-section .header-content .main-title {
+  margin-bottom: 10px;
+}
+.header-section .header-content .main-title h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Gotham Rounded Bold";
+  letter-spacing: 5px;
+  line-height: 1.5em;
+}
+.header-section .header-content .main-desc {
+  margin-bottom: 20px;
+}
+.header-section .header-content .main-desc p {
+  color: #fff;
+  font-size: 12px;
+}
+.header-section .header-content .button {
+  margin-bottom: 160px;
+}
+.header-section .header-content .button a {
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #1abc9c;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.header-section .header-content .button a:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.header-section .social-media {
+  margin-bottom: 20px;
+}
+.header-section .social-media nav ul li {
+  display: inline;
+  margin: 0 5px;
+}
+.header-section .social-media nav ul li a {
+  color: #fff;
+}
+.header-section .social-media nav ul li a svg {
+  font-size: 18px;
+}
+
+/* ===================================
+    Header Section End
+====================================== */
+/* ===================================
+    Get Started Section Start
+====================================== */
+.get-started {
+  overflow: hidden;
+  background-color: #f5f6f7;
+  z-index: 2;
+  position: relative;
+}
+.get-started .title {
+  margin: 110px 0 35px;
+}
+.get-started .title h2 {
+  font-size: 16px;
+  font-family: "Gotham Rounded Bold";
+  text-transform: uppercase;
+  color: #1abc9c;
+  line-height: 1.5em;
+}
+.get-started .desc {
+  width: 50%;
+  margin-bottom: 35px;
+}
+.get-started .desc p {
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #373737;
+}
+.get-started .desc p b {
+  font-family: "Gotham Rounded Bold";
+}
+.get-started .button {
+  margin-bottom: 90px;
+}
+.get-started .button a {
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #1abc9c;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.get-started .button a:hover {
+  background: transparent;
+  color: #333;
+  border: 1px solid #333;
+}
+.get-started .container {
+  position: relative;
+}
+.get-started .hand-phone {
+  position: absolute;
+  top: 91%;
+  right: -180px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.get-started .hand-phone img {
+  max-width: 70%;
+  height: auto;
+}
+
+/* ===================================
+    Get Started Section End
+====================================== */
+/* ===================================
+    Design Section Start
+====================================== */
+.design-section {
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+}
+.design-section .title {
+  margin: 110px 0 35px;
+  /*width: 50%;*/
+}
+.design-section .title h2 {
+  font-size: 16px;
+  font-family: "Gotham Rounded Bold";
+  text-transform: uppercase;
+  color: #1abc9c;
+  line-height: 1.5em;
+}
+.design-section .desc {
+  /*width: 50%;*/
+  margin-bottom: 35px;
+}
+.design-section .desc p {
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #373737;
+}
+.design-section .desc p b {
+  font-family: "Gotham Rounded Bold";
+}
+.design-section .button {
+  margin-bottom: 30px;
+}
+.design-section .button a {
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #1abc9c;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.design-section .button a:hover {
+  background: transparent;
+  color: #333;
+  border: 1px solid #333;
+}
+.design-section .container {
+  position: relative;
+}
+.design-section .hand-phone {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.design-section .hand-phone img {
+  max-width: 70%;
+  height: auto;
+}
+.design-section .date span {
+  font-size: 10px;
+  font-family: "Gotham Rounded Bold";
+}
+.design-section .handle {
+  margin-bottom: 50px;
+}
+.design-section .handle svg {
+  font-size: 20px;
+  color: #373737;
+}
+.design-section .handle svg:nth-child(1) {
+  margin-right: 6px;
+}
+
+/* ===================================
+    Design Section End
+====================================== */
+/* ===================================
+    Our Community Section Start
+====================================== */
+.our-community {
+  overflow: hidden;
+  background-color: #f5f6f7;
+  padding: 60px 0 60px;
+}
+.our-community .handle {
+  text-align: right;
+  margin-bottom: 5px;
+}
+.our-community .handle svg {
+  font-size: 20px;
+  color: #373737;
+}
+.our-community .logo-area {
+  text-align: center;
+  margin: 20px auto;
+}
+.our-community .logo-area .logo {
+  margin-bottom: 18px;
+}
+.our-community .logo-area .logo img {
+  max-width: 40px;
+  height: auto;
+}
+.our-community .logo-area .title {
+  margin-bottom: 18px;
+}
+.our-community .logo-area .title h2 {
+  font-size: 15px;
+  font-family: "Gotham Rounded Bold";
+  text-transform: uppercase;
+  color: #373737;
+  line-height: 1.5em;
+}
+.our-community .logo-area .desc {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+.our-community .logo-area .desc p {
+  font-size: 12px;
+  color: #373737;
+  line-height: 1.3em;
+}
+.our-community .image {
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* ===================================
+    Our Community Section End
+====================================== */
+/* ===================================
+    Subscribe Section Start
+====================================== */
+.subscribe-section {
+  background: url(../img/subscribe_bg.png) no-repeat 100% 100%/cover;
+  text-align: center;
+  overflow: hidden;
+  padding: 230px 0 215px;
+}
+.subscribe-section .title {
+  margin-bottom: 20px;
+}
+.subscribe-section .title h2 {
+  font-size: 15px;
+  font-family: "Gotham Rounded Bold";
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.5em;
+  letter-spacing: 4px;
+}
+.subscribe-section .subscribe-form {
+  font-size: 14px;
+}
+.subscribe-section .subscribe-form form input {
+  padding: 12px;
+  margin-right: -2.5px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  text-transform: uppercase;
+  color: #373737;
+  font-family: "Gotham Rounded Book";
+}
+.subscribe-section .subscribe-form form input:focus {
+  outline: none;
+}
+.subscribe-section .subscribe-form form button {
+  padding: 12px;
+  color: #fff;
+  background-color: #1abc9c;
+  margin-left: -2.5px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.subscribe-section .subscribe-form form button:hover {
+  background-color: #159f85;
+}
+.subscribe-section .subscribe-form form button:focus {
+  outline: none;
+}
+
+/* ===================================
+    Subscribe Section End
+====================================== */
+/* ===================================
+    Download Section Start
+====================================== */
+.download-section {
+  text-align: center;
+  overflow: hidden;
+  padding: 60px 0;
+  background-color: #f5f6f7;
+}
+.download-section .title {
+  margin-bottom: 20px;
+}
+.download-section .title h2 {
+  font-size: 15px;
+  font-family: "Gotham Rounded Bold";
+  text-transform: uppercase;
+  color: #373737;
+  line-height: 1.5em;
+  letter-spacing: 3px;
+}
+.download-section .desc {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 80%;
+}
+.download-section .desc p {
+  font-size: 12px;
+  line-height: 1.5em;
+}
+.download-section .appstore .btn-1 {
+  display: inline-block;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+.download-section .appstore .btn-2 {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin: 5px;
+}
+.download-section .appstore button {
+  width: 140px;
+  border: none;
+  background-color: #1abc9c;
+  padding: 12px 18px;
+  padding-left: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 4px 0 0 4px;
+  margin-right: -5px;
+}
+.download-section .appstore span {
+  display: inline-block;
+  width: 40px;
+  color: #fff;
+  background-color: #159f85;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.8em;
+  cursor: pointer;
+}
+.download-section .appstore span a {
+  color: #fff;
+}
+.download-section .appstore span a svg {
+  font-size: 17px;
+}
+
+/* ===================================
+    Download Section End
+====================================== */
+/* ===================================
+    Footer Section Start
+====================================== */
+.footer-section {
+  position: relative;
+  overflow: hidden;
+  padding: 30px 0 20px;
+}
+.footer-section .link {
+  margin-bottom: 12px;
+}
+.footer-section .link nav ul li {
+  display: inline;
+}
+.footer-section .link nav ul li a {
+  color: #373737;
+  font-size: 12px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  font-family: "Gotham Rounded Bold";
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.footer-section .link nav ul li a span {
+  color: #1abc9c;
+}
+.footer-section .copyright p {
+  font-size: 12px;
+  line-height: 1.3em;
+  font-family: "Gotham Rounded Bold";
+}
+.footer-section .footer-logo {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+}
+.footer-section .footer-logo img {
+  width: 35px;
+}
+
+/* ===================================
+    Footer Section End
+====================================== */
+
+/*# sourceMappingURL=default.css.map */

@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+
+	.header-section .navigation-menu ul li {
+	  margin: 0 15px;
+	}
+	.header-section .navigation-menu ul li a {
+	  font-size: 11px;
+	}
+	.header-section .navigation-menu ul li a img {
+	  max-width: 35px;
+	  margin: 0 10px;
+	}
+	.get-started .desc {
+	  width: 100%;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+
+	.header-section .navigation-menu ul li {
+	  margin: 0 5px;
+	}
+	.header-section .navigation-menu ul li a {
+	  font-size: 10px;
+	  letter-spacing: 1px;
+	}
+	.header-section .navigation-menu ul li a img {
+	  max-width: 28px;
+	  margin: 0 3px;
+	}
+	.header-section .header-content .main-title h1 {
+	  font-size: 22px;
+	  letter-spacing: 3px;
+	  line-height: 1.5em;
+	}
+}
